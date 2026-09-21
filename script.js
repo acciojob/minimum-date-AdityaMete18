@@ -1,13 +1,14 @@
-min = "";
+min = dates[0];
 function minDate(dates) {
   //write you code here
-	for(i=0 ; i<=dates.length - 1 ; i++){
-		if(dates[i]<dates[i+1]){
+	for(i=0 ; i<=dates.length  ; i++){
+		if(dates[i]<min){
 			min = dates[i];
 		}
 	}
 	
 }
+return min ;
 
 Do not change the code
 
@@ -46,3 +47,13 @@ var dates = [
 
 
 alert(minDate(dates));
+
+
+
+
+
+
+
+
+
+
